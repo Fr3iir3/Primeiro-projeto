@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+
+/* Logo do senai*/
+header {
+    text-align: center;
+
+}
+
+img {
+    margin-top: 10px;
+    width: 190px;
+    text-align: center;
+}
+/* fim da logo */
+
+
+.quadrado {
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-align: center;
+    position: relative;
+    top: 6vh;
+    height: 750px;
+    width: 20%;
+    border-radius: 15px;
+}
+
+/* Parte do botão dos laboratórios*/
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius:5px ;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    font-weight: 550;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: 	#DCDCDC;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: 	#A9A9A9}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: 	#800000;
+}
+/*Fim da parte dos laboratórios*/
+
+
+.exit {
+    position: relative;
+    text-align: center;
+    top: 70%;
+}
+
+.btn-exit  {
+    padding: 10px 12px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-exit:hover {
+    background-color: #800000;
+}
+
+
+@media (min-width:1530px) and (max-width:1700px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 26%;
+    }
+}
+@media (min-width:1430px) and (max-width:1529px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 28%;
+    }
+}
+
+@media (min-width:1330px) and (max-width:1429px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 29%;
+    }
+}
+
+@media (min-width:1230px) and (max-width:1329px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 30%;
+    }
+}
+
+@media (min-width:1130px) and (max-width:1229px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 33%;
+    }
+}
+
+@media (min-width:1030px) and (max-width:1129px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 35%;
+    }
+}
+
+@media (min-width:930px) and (max-width:1029px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 36%;
+    }
+}
+
+@media (min-width:830px) and (max-width:929px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 38%;
+    }
+}
+
+@media (min-width:730px) and (max-width:829px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 42%;
+    }
+}
+
+@media (min-width:630px) and (max-width:729px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 44%;
+    }
+}
+
+@media (min-width:530px) and (max-width:629px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 47%;
+    }
+}
+
+@media (min-width:430px) and (max-width:529px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 52%;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:330px) and (max-width:429px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 55%;
+    }
+    p {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 29px;
+    }
+}
+
+@media (min-width:230px) and (max-width:329px) {
+    body {
+        background-size: 100vw 100vh;
+    }
+    .quadrado {
+        width: 60%;
+    }
+    p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .dropdown-content{
+        min-width: 100px;
+    }
+}
